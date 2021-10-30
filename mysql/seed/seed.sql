@@ -1,0 +1,1 @@
+INSERT INTO test (text_data) VALUES ('This is the text data from MySQL.')
