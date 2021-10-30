@@ -5,11 +5,6 @@ services:
     container_name: backend-api
     build: ./
     command: npm start
-    # environment:
-      # MYSQL_USER: ${MYSQL_USER}
-      # MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      # MYSQL_DATABASE: ${MYSQL_DATABASE}
-      # MYSQL_HOST: ${MYSQL_HOST}
     working_dir: /usr/src/node-sample-project
     ports:
       - '3000:3000'
