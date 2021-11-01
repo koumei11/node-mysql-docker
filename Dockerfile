@@ -2,7 +2,7 @@ FROM node:16.0.0
 
 WORKDIR /usr/src/node-sample-project
 
-COPY ./ ./
+COPY . .
 
 RUN npm install
 
